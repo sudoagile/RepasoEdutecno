@@ -6,25 +6,45 @@
     <title>Formularios</title>
 </head>
 <body>
+    <h1 id="tituloPrincipal">Principal</h1>
     <h2 class="subtitulos">Formulario de registro</h2>
     <form action="" method="GET" id="forRegistro">
         <div>
             <label for="registroNombre">Nombre</label>
-            <input type="text" name="nombre" id="registroNombre">
+            <input type="text" name="nombre" id="registroNombre" maxlength="10"
+            required placeholder = "Ingresa tu nombre">
         </div>
         <div>
             <label for="registroApellido">Apellido</label>
-            <input type="text" name="apellido" id="registroApellido">
+            <input type="text" name="apellido" id="registroApellido" required>
+        </div>
+        <div>
+            <label for="registroEdad">Edad</label>
+            <input type="number" name="edad" id="registroEdad" required>
+        </div>
+        <div>
+            <label for="registroEmail">Email</label>
+            <input type="email" name="email" id="registroEmail" required>
+        </div>
+        <div>
+            <label for="registroNacimiento">Nacimiento</label>
+            <input type="date" name="Nacimiento" id="registroNacimiento" required>
         </div>
         <input type="submit" value="Registrar">
+        <br>
+        <input type="reset" value="Borrar">
     </form>
 
     <style>
         .subtitulos{
             color: red;
         }
-
-
+        #tituloPrincipal{
+            color:blue;
+        }
+        h2 {
+            color: green;
+        }
     </style>
 </body>
 </html>

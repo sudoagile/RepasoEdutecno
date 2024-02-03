@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <form action="" method="GET" id="forRegistro">
+        <div>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" title="NOMBRE"
+            required placeholder = "Ingresa tu nombre" pattern="[a-zA-ZáéíóúÁÉÍÓÚ\s]+">
+        </div>
+        <div>
+            <label for="RUT">RUT</label>
+            <input type="text" name="rut" id="RUT" title="RUT"
+            required placeholder = "Ingresa tu RUT"
+             pattern="^\d{1,3}(\.\d{3})*-?[\dkK]{1}$">
+        </div>
+        <div>
+            <label for="Edad">Edad</label>
+            <input type="text" name="Edad" id="Edad" title="Edad"
+            required placeholder = "Ingresa tu Edad"
+             pattern="^\d{1,3}(\.\d{3})*-?[\dkK]{1}$">
+        </div>
+        
+        <input type="submit" value="Ingreso">
+       
+    </form>
+</body>
+</html>
