@@ -1,0 +1,22 @@
+
+/* estilos mediante id */
+#tituloPrincipal{
+    color: aquamarine;
+}
+
+/* estilo mediante clase */
+
+.titulos {
+    color: blue;
+}
+/* Si las de arriba se comentan esta regla pesaria 2  */
+header h1{
+    color: green;
+    font-size: 50px;
+    text-align: center;
+}
+h1{
+    color: orange !important; 
+    /* Pero con !important si ropmpe a todas las demás */
+}
+
