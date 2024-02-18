@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center; 
+}
+
+
+header {
+    background-color:aqua;
+    padding-top: 25px; /* relleno suoerior */
+    padding-bottom: 25px; /* relleno inferior */
+    text-align: center; /* centramos los elementos dentro del header */
+}
+
+header p{
+    margin-top: 15px;
+}
+#destacados{
+    background-color: bisque;
+    padding: 25px 0px;/* forma resumida que aplica padding superior e inferior de 25px 
+    25 px y 0 pixeles de izquierda y derecha*/
+}

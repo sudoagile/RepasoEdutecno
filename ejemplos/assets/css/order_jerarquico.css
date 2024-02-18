@@ -15,8 +15,15 @@ header h1{
     font-size: 50px;
     text-align: center;
 }
-h1{
+/* h1{
     color: orange !important; 
-    /* Pero con !important si ropmpe a todas las demás */
+    Pero con !important si ropmpe a todas las demás 
+} */
+
+#destacados h2{
+    color: bisque;
 }
 
+#remates h1{
+    color: brown;
+}
