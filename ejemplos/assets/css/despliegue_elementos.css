@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.caja{
+    height: 50px;
+}
+#caja1{
+    background-color: brown;
+    width: 50%; /* La caja es en bloque es decir la caja es el 1005 pero solo se pinta la mitad */
+}
+#caja2{
+    background-color: blue;
+}
+#caja3{
+    background-color: green;
+}
+#elemnetosInline img{
+
+    float: left;
+    width: 25%;
+    
+}
