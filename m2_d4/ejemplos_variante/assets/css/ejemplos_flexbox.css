@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#headerPricipal {
+  
+    text-align: center;
+    padding: 25px 0px;
+    background-color: blueviolet;
+}
+.producto {
+    width: 300px;
+    height: 250px;
+    /* min-width: 300px; */
+}
+#producto1{
+    background-color: brown;
+}
+#producto2{
+    background-color: green;
+}
+#producto3{
+    background-color: yellow;
+}
+#productosDestacados{
+    display: flex;
+    flex-direction: row; /* propiedad por defecto row alinea de forma horizaontal colum de forma horizontal */
+    justify-content: space-evenly; /* center; existes otros como los space */
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+    padding: 25px 0;
+}
+#productosOferta header{
+    background-color: brown;
+    padding: 15px 0px;
+    text-align: center;
+    color: white;
+}
+
+#productosOferta section{
+    border: 2px solid black;
+    height: 200px;
+    width: 25%;
+    background-color: blue;
+}
+
+#containerOfertas{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(23,231,231);
+    padding: 15px 0px;
+    /* justify-content: space-evenly; */ /* Esto es una alternativa a dividir los espacios 50 a 50% */
+}
+

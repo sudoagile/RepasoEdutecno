@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+  
+    text-align: center;
+    padding: 25px 0px;
+    background-color: blueviolet;
+}
+.producto {
+    width: 300px;
+    height: 300px;
+}
+#producto1{
+    background-color: brown;
+}
+#producto2{
+    background-color: green;
+}
+#producto3{
+    background-color: yellow;
+}
+#productosDestacados{
+    display: flex;
+    flex-direction: row; /* propiedad por defecto row alinea de forma horizaontal colum de forma horizontal */
+    justify-content: space-evenly; /* center; existes otros como los space */
+    align-items: center;
+    flex-wrap: wrap;
+    height: 600px;
+    background-color: blanchedalmond;
+
+}
+

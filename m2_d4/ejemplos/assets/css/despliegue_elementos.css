@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+section{
+    overflow: hidden;
+}
+
 .caja{
     height: 50px;
 }
@@ -17,9 +21,19 @@
 #caja3{
     background-color: green;
 }
+#elementosInline{
+    height: 400px;
+}
+
 #elemnetosInline img{
 
     float: left;
     width: 25%;
     
+}
+
+#sectionAbsoluta{
+    height: 300px;
+    background-color: blueviolet;
+    width: 100%;
 }
